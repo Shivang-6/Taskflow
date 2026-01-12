@@ -1,0 +1,73 @@
+# Backend PHP
+backend/vendor/
+backend/composer.lock
+backend/composer.phar
+backend/.env
+backend/.env.*
+!backend/.env.example
+backend/writable/logs/*
+backend/writable/cache/*
+backend/writable/session/*
+backend/writable/uploads/*
+backend/.phpunit.result.cache
+backend/builds
+
+# Frontend React
+web-frontend/node_modules/
+web-frontend/.pnp
+web-frontend/.pnp.js
+web-frontend/build/
+web-frontend/.cache/
+web-frontend/coverage/
+web-frontend/.env.local
+web-frontend/.env.development.local
+web-frontend/.env.test.local
+web-frontend/.env.production.local
+web-frontend/npm-debug.log*
+web-frontend/yarn-debug.log*
+web-frontend/yarn-error.log*
+
+# Database
+database/*.sql
+database/backups/
+*.db
+*.sqlite
+*.sqlite3
+dump.sql
+
+# System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+desktop.ini
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+~$*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs
+*.log
